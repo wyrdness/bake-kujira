@@ -1,10 +1,8 @@
 {
-  "category": "UNDEAD",
-
   "meta": {
     "version": "1.0.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-01-14",
+    "last_updated": "2026-02-13",
     "repository": "https://github.com/wyrdness/bake-kujira",
     "maintainers": [
       {
@@ -18,286 +16,111 @@
       "content": "CC-BY-4.0"
     }
   },
-
   "phenomenon": {
     "id": "bake-kujira",
-    "name": "Bake-kujira",
-    "aliases": [
-      {
-        "name": "化け鯨",
-        "language": "Japanese",
-        "region": "Japan",
-        "meaning": "ghost whale"
-      },
-      {
-        "name": "Ghost Whale",
-        "language": "English",
-        "region": "International"
-      }
-    ],
+    "name": "Bake-kujira (化け鯨)",
+    "aliases": [],
     "category": "UNDEAD",
-    "subcategory": "Japanese Yokai / Ghost",
+    "subcategory": "| Spectral undead entities |",
     "tags": [
-      "yokai",
-      "japanese",
-      "ghost",
-      "undead",
-      "whale",
-      "maritime",
-      "curse",
-      "environmental",
-      "revenge"
+      "folklore",
+      "mythology"
     ],
-    "status": "folklore",
+    "status": "documented",
     "description": {
-      "summary": "The 'ghost whale'—a skeletal whale ghost from Japanese folklore that appears near coastal whaling villages to bring curses, famine, and plague as revenge for slaughtered whales.",
-      "full": "The Bake-kujira is a terrifying apparition from Japanese coastal folklore—a massive whale skeleton with no flesh, rising from the ocean depths accompanied by schools of strange fish and eerie birds. This ghost whale appears near whaling villages on misty, rainy nights, serving as a harbinger of doom. The Bake-kujira brings curses, pestilence, famine, and disaster to the communities that encounter it, representing the vengeful spirit of whales killed by whalers. When fishermen attempt to harpoon it, their weapons pass harmlessly through its skeletal form. The creature embodies nature's revenge for environmental destruction and overexploitation, making it a powerful ecological allegory in Japanese folklore. The Bake-kujira serves as a cautionary tale about the consequences of disrespecting nature and taking more than one's share from the sea."
+      "summary": "The **Bake-kujira** (化け鯨, \\\"ghost whale\\\") is a terrifying apparition from Japanese coastal folklore—a massive **whale skeleton with no flesh**, rising from the ocean depths accompanied by schools of strange fish and eerie birds.",
+      "full": "The **Bake-kujira** (化け鯨, \\\"ghost whale\\\") is a terrifying apparition from Japanese coastal folklore—a massive **whale skeleton with no flesh**, rising from the ocean depths accompanied by schools of strange fish and eerie birds. This ghost whale appears near whaling villages on **misty, rainy nights**, serving as a harbinger of doom. The Bake-kujira brings **curses, pestilence, famine, and disaster** to the communities that encounter it, representing the vengeful spirit of whales killed by whalers. When fishermen attempt to harpoon it, their weapons **pass harmlessly through** its skeletal form—there is no flesh to pierce, no body to wound. The creature embodies **nature's revenge** for environmental destruction and overexploitation, making it one of folklore's most powerful ecological allegories."
     },
     "etymology": {
-      "origin": "From Japanese folklore of coastal whaling communities.",
-      "meaning": "'Bake' (化け) means ghost/monster/transforming, 'kujira' (鯨) means whale. Literally 'ghost whale' or 'monster whale'",
-      "first_use": "Edo period coastal folklore"
+      "origin": "Unknown",
+      "meaning": "To be documented",
+      "first_use": "Unknown"
     }
   },
-
   "classification": {
     "taxonomy": {
       "category": "UNDEAD",
-      "type": "Yokai / Ghost",
-      "subtype": "Animal Spirit / Revenant",
-      "variant": "Japanese Maritime"
+      "type": "| Spectral undead entities |",
+      "subtype": "Unknown",
+      "variant": "Unknown"
     },
-    "related_phenomena": [
-      {
-        "id": "ghosts",
-        "name": "Ghosts",
-        "relationship": "type",
-        "description": "Spectral undead entities"
-      },
-      {
-        "id": "phantom-ships",
-        "name": "Phantom Ships",
-        "relationship": "similar",
-        "description": "Maritime ghost phenomena"
-      }
-    ]
+    "related_phenomena": []
   },
-
   "characteristics": {
     "physical": {
-      "form": "Massive whale skeleton with no flesh",
-      "size": {
-        "description": "Full whale size, often depicted as enormous",
-        "note": "Skeletal form makes size appear even more imposing"
-      },
-      "features": [
-        {
-          "feature": "Skeletal body",
-          "description": "Complete whale skeleton with no flesh or organs",
-          "frequency": "always"
-        },
-        {
-          "feature": "Strange fish escort",
-          "description": "Accompanied by schools of bizarre, otherworldly fish",
-          "frequency": "common"
-        },
-        {
-          "feature": "Eerie birds",
-          "description": "Surrounded by strange, ghostly birds",
-          "frequency": "common"
-        },
-        {
-          "feature": "Ghostly aura",
-          "description": "Spectral, ethereal presence visible even in darkness",
-          "frequency": "always"
-        }
-      ],
-      "manifestation_conditions": [
-        "Misty nights",
-        "Rainy weather",
-        "Offshore from whaling villages",
-        "Coastal waters"
-      ],
-      "morphology": "Massive skeletal whale floating or swimming through ocean waters, bones gleaming white through mist and darkness"
+      "features": [],
+      "morphology": "See README.md for detailed physical description"
     },
-    "abilities": [
-      {
-        "ability": "Intangibility",
-        "description": "Harpoons and weapons pass harmlessly through its skeletal form",
-        "frequency": "always",
-        "evidence_level": "folklore"
-      },
-      {
-        "ability": "Curse bringing",
-        "description": "Brings pestilence, famine, and disaster to communities",
-        "frequency": "always",
-        "evidence_level": "folklore"
-      },
-      {
-        "ability": "Plague manifestation",
-        "description": "Causes disease and sickness in villages it visits",
-        "frequency": "common",
-        "evidence_level": "folklore"
-      },
-      {
-        "ability": "Fishing curse",
-        "description": "Ruins fishing and brings famine to coastal communities",
-        "frequency": "common",
-        "evidence_level": "folklore"
-      }
-    ],
+    "abilities": [],
     "behavior": {
-      "activity_period": "nocturnal",
-      "disposition": "vengeful",
-      "social_structure": "solitary (accompanied by supernatural fish/birds)",
-      "habitat_preference": [
-        "coastal waters",
-        "near whaling villages",
-        "offshore areas",
-        "misty seas"
-      ],
-      "diet": "None (undead spirit)",
-      "patterns": [
-        "Appears on misty or rainy nights",
-        "Targets whaling communities",
-        "Brings curses and disaster",
-        "Cannot be harmed by physical weapons",
-        "Serves as harbinger of doom"
-      ]
+      "activity_period": "unknown",
+      "disposition": "unknown",
+      "habitat_preference": []
     }
   },
-
   "distribution": {
     "range": {
-      "description": "Japanese coastal folklore, particularly in whaling communities along Japan's coastlines.",
-      "continents": ["Asia"],
-      "countries": ["Japan"],
-      "regions": [
-        "Coastal whaling villages",
-        "Maritime communities",
-        "Fishing villages"
-      ]
+      "description": "Unknown",
+      "continents": [],
+      "countries": [],
+      "regions": []
     },
+    "hotspots": [],
     "temporal": {
       "first_recorded": {
-        "date": "Edo period",
+        "date": "Unknown",
         "circa": true,
-        "source": "Coastal folklore and oral traditions"
+        "source": "Traditional folklore"
       }
     }
   },
-
   "history": {
     "origins": {
-      "cultural_roots": "Japanese coastal and whaling community folklore, reflecting the spiritual significance of whales and the belief that killed animals' spirits could seek revenge. Relates to Shinto and Buddhist concepts of respecting nature and consequences of excess killing.",
-      "earliest_accounts": "Oral traditions from Edo period whaling communities.",
-      "folklore_connections": "Part of broader Japanese tradition of animal spirits (especially those killed by humans) returning as yokai or vengeful ghosts."
+      "cultural_roots": "Unknown",
+      "earliest_accounts": "See README.md for historical details",
+      "folklore_connections": "Unknown"
     },
-    "timeline": [
-      {
-        "date": "1600-1868",
-        "event": "Edo period whaling expansion",
-        "significance": "Increased whaling activity in Japanese coastal waters; Bake-kujira legends develop",
-        "source": "Historical whaling records and folklore"
-      }
-    ],
-    "modern_era": "The Bake-kujira has gained recognition as an environmental allegory, symbolizing the consequences of overexploitation and environmental destruction. It appears in modern yokai collections, environmental literature, and as a symbol of ocean conservation."
+    "timeline": []
   },
-
+  "sightings": {
+    "statistics": {
+      "total_documented": 0,
+      "verified": 0,
+      "disputed": 0,
+      "debunked": 0
+    },
+    "notable": [],
+    "database_path": "./sightings/"
+  },
+  "evidence": {
+    "physical": [],
+    "photographic": [],
+    "video": [],
+    "audio": [],
+    "trace": []
+  },
+  "theories": {
+    "paranormal": [],
+    "scientific": [],
+    "skeptical": []
+  },
   "cultural": {
     "folklore": {
-      "traditions": [
-        "Coastal whaling community folklore",
-        "Maritime yokai traditions",
-        "Animal revenge spirit lore"
-      ],
-      "beliefs": "The Bake-kujira represents the revenge of whales killed by whalers, embodying the belief that excessive killing and disrespect for nature will bring supernatural retribution.",
-      "symbolism": [
-        "Environmental consequences",
-        "Revenge of nature",
-        "Overexploitation and greed",
-        "Respect for ocean life",
-        "Karmic retribution for killing"
-      ]
-    },
-    "japanese_cultural_context": {
-      "significance": "Reflects Japanese cultural beliefs about respecting nature and the spirits of animals, particularly those killed for human use. Connects to Shinto concepts of natural spirits and Buddhist teachings on karma.",
-      "sensitivity_note": "The Bake-kujira is part of traditional Japanese maritime and environmental folklore. It reflects historical whaling practices and cultural beliefs about nature's revenge.",
-      "environmental_message": "One of folklore's most powerful environmental allegories—a stark warning about the consequences of environmental destruction and overexploitation of natural resources"
+      "traditions": [],
+      "stories": [],
+      "beliefs": "See README.md for cultural context"
     },
     "popular_culture": {
-      "literature": [
-        "Yokai encyclopedias and collections",
-        "Environmental folklore anthologies"
-      ],
-      "art": [
-        "Traditional Japanese maritime art",
-        "Modern yokai illustrations",
-        "Environmental art"
-      ],
-      "symbolism": [
-        "Ocean conservation movements",
-        "Anti-whaling activism (symbolic use)",
-        "Environmental justice"
-      ]
+      "literature": [],
+      "film_tv": [],
+      "games": [],
+      "other": []
     }
   },
-
-  "theories": {
-    "folkloric": [
-      {
-        "name": "Whale spirit revenge",
-        "description": "The vengeful spirits of whales killed by whalers return as skeletal ghosts to curse the communities that killed them",
-        "evidence_cited": ["Appears near whaling villages", "Brings curses and famine", "Cannot be harmed like living whale"]
-      },
-      {
-        "name": "Environmental karmic retribution",
-        "description": "Supernatural manifestation of karma for environmental destruction and overexploitation",
-        "evidence_cited": ["Punishes whaling communities", "Brings famine after overhunting", "Represents nature's revenge"]
-      }
-    ],
-    "cultural": [
-      {
-        "name": "Cautionary tale",
-        "description": "Story created to discourage overfishing and excessive whaling, promoting sustainable practices",
-        "evidence_cited": ["Moral dimension of the tale", "Practical conservation message"]
-      }
-    ],
-    "psychological": [
-      {
-        "name": "Guilt manifestation",
-        "description": "Projection of whalers' guilt over killing intelligent, majestic creatures",
-        "evidence_cited": ["Whales seen as intelligent and spiritual", "Psychological burden of killing"]
-      }
-    ]
+  "research": {
+    "researchers": [],
+    "organizations": [],
+    "ongoing_studies": "None documented"
   },
-
-  "sources": [
-    {
-      "id": "foster-yokai",
-      "type": "book",
-      "title": "The Book of Yokai: Mysterious Creatures of Japanese Folklore",
-      "authors": ["Michael Dylan Foster"],
-      "publication": "University of California Press",
-      "date": "2015",
-      "isbn": "978-0520271029"
-    },
-    {
-      "id": "yokai-attack",
-      "type": "book",
-      "title": "Yokai Attack! The Japanese Monster Survival Guide",
-      "authors": ["Hiroko Yoda", "Matt Alt"],
-      "publication": "Tuttle Publishing",
-      "date": "2008",
-      "isbn": "978-4805310359"
-    },
-    {
-      "id": "davisson-yokai",
-      "type": "book",
-      "title": "Yokai Stories",
-      "authors": ["Zack Davisson"],
-      "publication": "Chin Music Press",
-      "date": "2016"
-    }
-  ]
+  "sources": []
 }
