@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-07",
     "repository": "https://github.com/wyrdness/bake-kujira",
     "maintainers": [
       {
@@ -16,72 +16,141 @@
       "content": "CC-BY-4.0"
     }
   },
+
   "phenomenon": {
     "id": "bake-kujira",
-    "name": "Bake-kujira (化け鯨)",
-    "aliases": [],
+    "name": "Bake-kujira",
+    "aliases": [
+      { "name": "化け鯨 / 化鯨", "language": "Japanese", "meaning": "'Ghost whale' / 'changed whale'" },
+      { "name": "Bakekujira", "language": "Japanese (Hepburn romanisation)" },
+      { "name": "Bake kudira / Bakekudira", "language": "Japanese (alternative romanisation)" },
+      { "name": "Hone-kujira", "language": "Japanese", "meaning": "'Bone whale'" }
+    ],
     "category": "UNDEAD",
-    "subcategory": "| Spectral undead entities |",
+    "subcategory": "Spectral cetacean / yōkai (vengeful animal spirit)",
     "tags": [
-      "folklore",
-      "mythology"
+      "yokai",
+      "japanese-folklore",
+      "ghost-whale",
+      "skeleton",
+      "shimane",
+      "izumo",
+      "vengeful-spirit",
+      "coastal-folklore"
     ],
     "status": "documented",
     "description": {
-      "summary": "The **Bake-kujira** (化け鯨, \\\"ghost whale\\\") is a terrifying apparition from Japanese coastal folklore—a massive **whale skeleton with no flesh**, rising from the ocean depths accompanied by schools of strange fish and eerie birds.",
-      "full": "The **Bake-kujira** (化け鯨, \\\"ghost whale\\\") is a terrifying apparition from Japanese coastal folklore—a massive **whale skeleton with no flesh**, rising from the ocean depths accompanied by schools of strange fish and eerie birds. This ghost whale appears near whaling villages on **misty, rainy nights**, serving as a harbinger of doom. The Bake-kujira brings **curses, pestilence, famine, and disaster** to the communities that encounter it, representing the vengeful spirit of whales killed by whalers. When fishermen attempt to harpoon it, their weapons **pass harmlessly through** its skeletal form—there is no flesh to pierce, no body to wound. The creature embodies **nature's revenge** for environmental destruction and overexploitation, making it one of folklore's most powerful ecological allegories."
+      "summary": "A yōkai of Japanese coastal folklore most strongly associated with the Shimane Peninsula in former Izumo Province: a colossal, fleshless whale skeleton that surfaces from the sea on rainy nights surrounded by strange birds and fish, and brings curses, fire, and pestilence upon the whaling villages it visits.",
+      "full": "Bake-kujira (化け鯨, 'ghost whale' or 'changed whale') is a yōkai of Japanese coastal folklore. It is most strongly attested in the Shimane Peninsula of former Izumo Province (modern north-eastern Shimane Prefecture), historically a major whaling region known as the 'Sea of Whales'. Folkloric accounts describe a vast, fleshless whale skeleton (sometimes specified as a baleen whale) that surfaces near a whaling village on a rainy or misty night, accompanied by schools of unfamiliar fish and unfamiliar dark birds. When fishermen attempt to harpoon it, their weapons pass harmlessly through the gaps between its bones. The villages it visits are subsequently afflicted with fires, plagues, famine, or other misfortunes. Notably, Bake-kujira is poorly attested in surviving Edo-period yōkai compendia and ukiyo-e — the modern prominence of the figure largely derives from the 20th-century manga artist and yōkai scholar Mizuki Shigeru (水木しげる), who featured Bake-kujira in his GeGeGe no Kitarō comics and yōkai encyclopaedias. Mizuki himself reportedly fell ill while working on a kamishibai (paper-theatre) Bake-kujira project in the 1950s, an event he later described in interviews. Local Oki and Izumo whale traditions — including kabuki performances and Buddhist memorial rites for whales — frame Bake-kujira within a wider Japanese folk understanding of the spiritual debt owed to whales taken by whaling communities."
     },
     "etymology": {
-      "origin": "Unknown",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "Japanese 化け (bake, from bakeru, 'to transform / become a ghost') + 鯨 (kujira, 'whale').",
+      "meaning": "'Transformed whale' — i.e. a whale that has become a yōkai. Sometimes also 'ghost whale'.",
+      "first_use": "The name and figure are most reliably documented from 20th-century yōkai literature; the underlying coastal whale-spirit tradition predates the modern label."
     }
   },
+
   "classification": {
     "taxonomy": {
       "category": "UNDEAD",
-      "type": "| Spectral undead entities |",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "type": "Yōkai (Japanese supernatural creature)",
+      "subtype": "Vengeful skeletal cetacean spirit",
+      "variant": "Shimane / Izumo coastal tradition; Mizuki Shigeru 20th-century redaction"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "ushi-oni", "name": "Ushi-oni", "relationship": "similar", "description": "Coastal Japanese yōkai — a vengeful sea creature." },
+      { "id": "umibozu", "name": "Umibōzu", "relationship": "similar", "description": "Sea-monster yōkai that imperils boats." },
+      { "id": "funayurei", "name": "Funayūrei", "relationship": "similar", "description": "Ghosts of those drowned at sea." },
+      { "id": "isonade", "name": "Isonade", "relationship": "similar", "description": "Coastal yōkai that drags fishermen from boats." }
+    ]
   },
+
   "characteristics": {
     "physical": {
-      "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "features": [
+        { "feature": "Enormous whale skeleton", "description": "Described as the bare skeleton of a great baleen whale, with no flesh or skin.", "frequency": "always" },
+        { "feature": "Phantasmal / intangible body", "description": "Harpoons and weapons pass harmlessly through the gaps in the bones.", "frequency": "always" },
+        { "feature": "Accompanying strange fish", "description": "Surrounded by schools of unfamiliar fish, sometimes in unusual species combinations.", "frequency": "common" },
+        { "feature": "Accompanying strange birds", "description": "Surrounded by unusual dark birds wheeling above the water.", "frequency": "common" },
+        { "feature": "Appears in mist or rain", "description": "Sightings are placed on misty, rainy nights near whaling villages.", "frequency": "common" }
+      ],
+      "morphology": "A spectral whale skeleton — visually like a stranded baleen whale's bones, but appearing on the open water and accompanied by uncanny faunal escorts."
     },
-    "abilities": [],
+    "abilities": [
+      { "ability": "Intangibility to weapons", "description": "Harpoons pass through it without effect.", "frequency": "always", "evidence_level": "folklore" },
+      { "ability": "Curses on whaling communities", "description": "Visits curse villages with fires, epidemics, famine, and misfortune.", "frequency": "always", "evidence_level": "folklore" },
+      { "ability": "Calls strange sea life", "description": "Attracts unfamiliar fish and dark birds in its presence.", "frequency": "common", "evidence_level": "folklore" }
+    ],
     "behavior": {
-      "activity_period": "unknown",
-      "disposition": "unknown",
-      "habitat_preference": []
+      "activity_period": "nocturnal",
+      "disposition": "aggressive",
+      "social_structure": "solitary",
+      "habitat_preference": ["Sea of Japan", "coastal waters off the Shimane Peninsula", "former whaling villages", "the 'Sea of Whales' (former Izumo Province)"],
+      "patterns": [
+        "Appears at night, in rain or mist",
+        "Visits coastal whaling villages",
+        "Visitations precede village misfortune"
+      ]
     }
   },
+
   "distribution": {
     "range": {
-      "description": "Unknown",
-      "continents": [],
-      "countries": [],
-      "regions": []
+      "description": "Strongly associated with the Shimane Peninsula and Oki Islands of former Izumo Province (modern Shimane Prefecture), Japan. Modern depictions, popularised through Mizuki Shigeru's manga, have spread the figure into nation-wide and global popular culture.",
+      "continents": ["Asia"],
+      "countries": ["Japan"],
+      "regions": ["Shimane Prefecture", "Izumo Province (historical)", "Oki Islands", "Sea of Japan coast", "former whaling villages of western Japan"]
     },
-    "hotspots": [],
+    "hotspots": [
+      {
+        "name": "Shimane Peninsula",
+        "location": {
+          "description": "Coastal Shimane Peninsula, former Izumo Province",
+          "country": "Japan",
+          "region": "Shimane Prefecture"
+        },
+        "peak_period": "Edo period through 20th century",
+        "notes": "Core region of the Bake-kujira tradition."
+      },
+      {
+        "name": "Oki Islands",
+        "location": {
+          "description": "Oki Islands, off the Shimane coast",
+          "country": "Japan",
+          "region": "Shimane Prefecture"
+        },
+        "peak_period": "Edo period",
+        "notes": "Whaling villages in the Oki area maintain traditions of whale memorial rites and kabuki performances; a 1764 Chibu Bay whale stranding is sometimes cited in this context."
+      }
+    ],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
+        "date": "Edo period (1603-1868)",
         "circa": true,
-        "source": "Traditional folklore"
-      }
+        "source": "Coastal oral tradition; specific Edo-period printed records of the named figure are scarce. Modern prominence is anchored by Mizuki Shigeru's 20th-century work."
+      },
+      "peak_activity_periods": [
+        { "period": "Edo period (1603-1868)", "description": "Whaling industries flourish along the Sea of Japan; coastal whale-spirit folklore proliferates orally." },
+        { "period": "1950s-2000s", "description": "Mizuki Shigeru popularises Bake-kujira through kamishibai, manga (GeGeGe no Kitarō), and yōkai encyclopaedias." }
+      ],
+      "seasonal_patterns": "Reported in association with rainy and misty coastal weather rather than a specific season."
     }
   },
+
   "history": {
     "origins": {
-      "cultural_roots": "Unknown",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "Japanese coastal whaling communities of western Honshu, especially the Sea of Japan littoral. Embedded in a wider Japanese tradition of memorial rites for whales taken by whalers (kujira-kuyō) and of yōkai associated with the sea.",
+      "earliest_accounts": "Surviving Edo-period yōkai compendia (e.g. Toriyama Sekien's series) do not include the Bake-kujira; the tradition appears to have circulated orally and to have been popularised in printed form in the 20th century.",
+      "folklore_connections": "Connected to broader Japanese coastal yōkai (umibōzu, funayūrei, isonade) and to whale-memorial Buddhist rites in former whaling regions."
     },
-    "timeline": []
+    "timeline": [
+      { "date": "Edo period (1603-1868)", "event": "Coastal whaling industries flourish in Izumo and along the Sea of Japan; Bake-kujira tradition circulates orally.", "significance": "Cultural seedbed for the figure.", "source": "General Edo-period whaling history; secondary scholarship on Japanese coastal folklore." },
+      { "date": "1950s", "event": "Mizuki Shigeru reportedly works on a kamishibai (paper-theatre) project featuring Bake-kujira and falls ill with high fever during production.", "significance": "Modern reintroduction of the figure into Japanese popular culture.", "source": "Mizuki Shigeru's autobiographical writings and interviews." },
+      { "date": "1960s-1990s", "event": "Mizuki Shigeru includes Bake-kujira in his yōkai encyclopaedias and GeGeGe no Kitarō manga and anime.", "significance": "Establishes the figure's modern visual canon.", "source": "Mizuki Shigeru, Yōkai daizukai and other yōkai compendia." }
+    ],
+    "modern_era": "Bake-kujira is now widely recognised in Japan and globally as one of the more visually striking yōkai. It appears in Mizuki Shigeru's manga, in animated GeGeGe no Kitarō adaptations, and in international media including the video game Smite. It has also become an emblem in some recent ecological-allegory readings of yōkai, as an embodiment of cetacean revenge for overharvesting."
   },
+
   "sightings": {
     "statistics": {
       "total_documented": 0,
@@ -92,35 +161,101 @@
     "notable": [],
     "database_path": "./sightings/"
   },
+
   "evidence": {
     "physical": [],
     "photographic": [],
     "video": [],
     "audio": [],
-    "trace": []
+    "trace": [],
+    "documentary": [
+      {
+        "id": "bake-kujira-evidence-mizuki",
+        "type": "manga / encyclopedia",
+        "name": "Mizuki Shigeru — yōkai compendia and GeGeGe no Kitarō",
+        "date": "1960s-1990s",
+        "description": "Mizuki Shigeru's drawings and short prose entries on Bake-kujira are the principal modern documentary record of the creature.",
+        "status": "verified",
+        "analysis": "Mizuki Shigeru's work synthesises older oral tradition with his own visual designs.",
+        "source": "Mizuki Shigeru, Zoku Yōkai Daizukai and other yōkai compendia."
+      }
+    ]
   },
+
   "theories": {
-    "paranormal": [],
-    "scientific": [],
-    "skeptical": []
+    "paranormal": [
+      {
+        "name": "Vengeful whale spirit",
+        "description": "Within Japanese coastal tradition, Bake-kujira is read as the spirit of a slain whale (or whales) taking revenge on the whaling communities. This reading is reinforced by Buddhist and folk practices of whale memorial rites (kujira-kuyō).",
+        "proponents": ["Local Shimane / Izumo / Oki tradition", "Mizuki Shigeru"],
+        "evidence_cited": ["Coastal oral tradition", "Buddhist whale-memorial rites in former whaling villages"]
+      }
+    ],
+    "scientific": [
+      {
+        "name": "Whale stranding folklore",
+        "description": "Some scholars suggest the tradition reflects awe and dread occasioned by occasional mass whale strandings or by the appearance of decomposing whale carcasses at sea — striking, foul-smelling, and visually skeletal.",
+        "proponents": ["Folklore scholars on Japanese coastal yōkai"],
+        "evidence_cited": ["Japanese whaling history; documented mass strandings in the Sea of Japan"]
+      }
+    ],
+    "skeptical": [
+      {
+        "name": "Modern yōkai construction",
+        "description": "Bake-kujira's modern prominence is largely the product of Mizuki Shigeru's 20th-century work; older Edo yōkai compendia do not depict it, suggesting the canonical visual figure is a modern crystallisation of older oral coastal folklore.",
+        "proponents": ["Folklore scholars (e.g. yōkai-studies tradition following Komatsu Kazuhiko)"],
+        "evidence_cited": ["Absence of Bake-kujira in surviving Edo yōkai prints", "Documented role of Mizuki Shigeru in popularising the figure"]
+      }
+    ]
   },
+
   "cultural": {
     "folklore": {
-      "traditions": [],
-      "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "traditions": [
+        "Shimane Peninsula and Izumo Province coastal yōkai tradition",
+        "Oki Islands whale-memorial (kujira-kuyō) and kabuki traditions"
+      ],
+      "stories": [
+        "Bake-kujira appearing on a misty night near a whaling village, accompanied by strange birds and fish, harpoons passing through it",
+        "Mizuki Shigeru's account of falling feverishly ill during 1950s kamishibai production"
+      ],
+      "beliefs": "Treats Bake-kujira as a vengeful spirit warning against the spiritual consequences of unchecked whaling; embedded in Japanese whale-memorial rites."
     },
     "popular_culture": {
-      "literature": [],
-      "film_tv": [],
-      "games": [],
-      "other": []
+      "literature": [
+        "Mizuki Shigeru, GeGeGe no Kitarō (manga, 1960-)",
+        "Mizuki Shigeru's yōkai encyclopaedias (Yōkai Daizukai etc., 1970s-2000s)",
+        "Matt Alt and Hiroko Yoda, Yokai Attack! The Japanese Monster Survival Guide (Tuttle, 2008/2012)",
+        "Michael Dylan Foster, The Book of Yōkai (UC Press, 2015)"
+      ],
+      "film_tv": [
+        "GeGeGe no Kitarō animated adaptations (Toei, 1968-)"
+      ],
+      "games": [
+        "Smite (Hi-Rez Studios) — Bake Kujira appears as a playable god"
+      ],
+      "other": [
+        "Whale-memorial kabuki performances in former Oki and Izumo whaling villages"
+      ]
     }
   },
+
   "research": {
-    "researchers": [],
-    "organizations": [],
-    "ongoing_studies": "None documented"
+    "researchers": [
+      { "name": "Mizuki Shigeru", "affiliation": "Manga artist / yōkai scholar", "contribution": "Primary modern populariser; included Bake-kujira in his yōkai compendia and manga.", "period": "1950s-2015" },
+      { "name": "Komatsu Kazuhiko", "affiliation": "International Research Center for Japanese Studies", "contribution": "Leading academic in Japanese yōkai studies; broader work on Japanese folkloric monsters.", "period": "1980s-present" },
+      { "name": "Michael Dylan Foster", "affiliation": "UC Davis (Japanese folklore)", "contribution": "English-language scholarly synthesis of yōkai including coastal traditions.", "period": "2000s-present" }
+    ],
+    "organizations": [
+      { "name": "Mizuki Shigeru Memorial Museum", "url": "https://mizuki.sakaiminato.net/en/", "focus": "Sakaiminato, Tottori — preserves Mizuki Shigeru's yōkai work." }
+    ],
+    "ongoing_studies": "Continued interest in Japanese yōkai studies and ecocritical readings of coastal folklore."
   },
-  "sources": []
+
+  "sources": [
+    { "id": "wikipedia-bake-kujira", "type": "website", "title": "Bake-kujira — Wikipedia", "url": "https://en.wikipedia.org/wiki/Bake-kujira", "accessed": "2026-05-07" },
+    { "id": "hyakumonogatari-bakekujira", "type": "website", "title": "Bakekujira and Japan's Whale Cults", "publication": "Hyakumonogatari Kaidankai", "url": "https://hyakumonogatari.com/2013/05/10/bakekujira-and-japans-whale-cults/", "accessed": "2026-05-07" },
+    { "id": "foster-2015", "type": "book", "title": "The Book of Yōkai: Mysterious Creatures of Japanese Folklore", "authors": ["Michael Dylan Foster"], "publication": "University of California Press", "date": "2015", "isbn": "978-0520271029" },
+    { "id": "yoda-alt-2012", "type": "book", "title": "Yokai Attack! The Japanese Monster Survival Guide", "authors": ["Hiroko Yoda", "Matt Alt"], "publication": "Tuttle Publishing", "date": "2012", "isbn": "978-4805312193" }
+  ]
 }
